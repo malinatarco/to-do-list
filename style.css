@@ -1,0 +1,93 @@
+*{
+    box-sizing:border-box;
+}
+body{
+    background-color: #F8F1F1;
+    height:100%;
+}
+header{
+    text-align:center;
+}
+h1{
+    font-family: "Caveat";
+    font-size:50px;
+    color: #025464;
+
+}
+
+p{
+    font-family: "Handlee";
+    font-size:25px;
+    color: #025464;
+}
+
+.add-items{
+    display:flex;
+    justify-content:center;
+    margin-top:100px;
+}
+
+input{
+    width:300px;
+    height:40px;
+    border:none;
+    font-family:"Handlee";
+    font-size:20px;
+    border-radius: 15px;
+    padding:0 30px;
+}
+
+input:focus{
+    outline:none;
+}
+
+button{
+    width:80px;
+    border-radius:15px;
+    background-color: #E8AA42;
+    color: #025464;
+    font-family: "Handlee";
+    font-size:20px;
+    border:none;
+    margin-left:20px;
+    cursor:pointer;
+}
+
+
+
+.item:first-child{
+    margin-top:20px;
+}
+
+.item{
+    display:flex;
+    justify-content:center;
+    margin-left:-300px;
+    position:relative;
+    cursor:pointer;
+}
+span{
+    font-family: "Handlee";
+    font-size:25px;
+    color: #025464;
+    max-width:300px;
+}
+.forValue{
+    width:200px;
+}
+.done{
+    position:relative;
+}
+.fa-check{
+    position:absolute;
+    left:270px;
+}
+
+.delete{
+    position:relative;
+}
+
+.fa-trash{
+    position: absolute;
+    left:310px;
+}
